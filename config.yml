@@ -1,0 +1,16 @@
+title: 'Basics of SAN...#LearnWithSush'
+description: Let's learn the SAN basics.
+template:
+  repo: basics-of-san...learnwithsush-template
+  name: basics-of-san...learnwithsush
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
